@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen, waitFor, fireEvent } from '@testing-library/react';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
-import SimpsonsQuotes from '../container/SimpsonsQuotes';
+import SimpsonsQuote from '../containers/SimpsonsQuote';
 
 const server = setupServer(
     rest.get('https://thesimpsonsquoteapi.glitch.me/quotes',

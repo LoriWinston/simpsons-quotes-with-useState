@@ -6,6 +6,7 @@ const Quote = ({ name, text, image }) => (
     <figure>
         <img src={image} alt={name} />
         <figcaption>{text}</figcaption>
+        <figcaption>{name}</figcaption>
     </figure>
 );
 
